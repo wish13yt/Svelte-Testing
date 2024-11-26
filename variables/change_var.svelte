@@ -11,6 +11,10 @@
     function func() {
         testVar = "World!"
     }
+    function func2() {
+        testVar = "Hello"
+    }
 </script>
 <h1>{testVar}</h1>
-<button on:click={func}>h</button>
+<button on:click={func}>change to world</button>
+<button on:click={func2}>revert</button>
