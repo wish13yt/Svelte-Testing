@@ -16,5 +16,5 @@
     }
 </script>
 <h1>{testVar}</h1>
-<button on:click={func}>change to world</button>
+<button on:click={func}>change to "world!"</button>
 <button on:click={func2}>revert</button>
